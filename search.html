@@ -19,7 +19,7 @@ layout: default
 		searchInput: document.getElementById('search-input'),
 		resultsContainer: document.getElementById('results-container'),
 		json: '{{site.baseurl}}/designtips/search.json',
-		searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a><p>{date}</p><p>{excerpt}</p></li>',
+		searchResultTemplate: '<li><a href="{{site.baseurl}}/designtips{url}" title="{desc}">{title}</a><p>{date}</p><p>{excerpt}</p></li>',
 		noResultsText: '<div class="alert alert-danger" role="alert">نتیجه ای یافت نشد</div>',
 		limit: 10,
 		fuzzy: false,
