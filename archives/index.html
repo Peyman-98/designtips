@@ -1,0 +1,46 @@
+---
+layout: default
+title:  "Archives"
+meta: "Archives Blog Posts"
+changefreq: daily
+---
+<section class="n1">
+	<article class="article">
+		<ul>
+			{% for post in paginator.posts %}	
+				<li class="media">
+					<div class="media-right" style="padding-left:20px;">
+						<a href="{{ post.url }}">
+							<img class="media-object" src="{{site.baseurl}}{{post.img}}" alt="js">
+						</a>
+					</div>
+					<div class="media-body">
+						<a href="{{ post.url }}" class="title">{{ post.title }}</a><br>
+						<span class="date"><i class="fa fa-clock-o fa-lg"></i>{{ post.date | date: "%Y-%m-%d" }}</span>
+						{{ post.excerpt }}
+						<a href="{{ post.url }}" class="btn btn-primary">ادامه مطلب</a>
+					</div>
+				</li>
+			{% endfor %}
+		</ul>
+		{% if paginator.total_pages > 1 %}
+		<div class="pagination">
+			{% if paginator.previous_page %}
+				<a class="pre" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+			{% endif %}
+			{% for page in (1..paginator.total_pages) %}
+				{% if page == paginator.page %}
+					<em>{{ page }}</em>
+				{% elsif page == 1 %}
+					<a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+				{% else %}
+					<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{page }}</a>
+				{% endif %}
+			{% endfor %}
+			{% if paginator.next_page %}
+				<a class="nex" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+			{% endif %}
+		</div>
+		{% endif %}
+	</article>
+</section>

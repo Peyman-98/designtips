@@ -1,0 +1,17 @@
+@mixin backimage($url,$pos) {
+	background:{
+	  	image: $url;
+	  	color: #ffffff;
+	  	repeat: no-repeat;
+	  	position:$pos;
+	  	size:cover;
+	  	attachment: fixed;
+	}
+}
+@mixin transition($arg1,$arg2,$arg3){
+	-webkit-transition: $arg1 $arg2 $arg3;
+	-moz-transition: $arg1 $arg2 $arg3;
+	-ms-transition: $arg1 $arg2 $arg3;
+	-o-transition: $arg1 $arg2 $arg3;
+	transition: $arg1 $arg2 $arg3;
+}

@@ -1,0 +1,15 @@
+# Site settings
+title: Web Design Tips
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Web Desing Tips And Learning Site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+paginate: 10
+paginate_path: "/archives/page:num"
+permalink: pretty
+
+# Build settings
+markdown: kramdown

@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<section class="n1">
+	<article class="article">
+		<div class="post">
+			<header class="post-header">
+				<h2 class="post-title">{{ page.title }}</h2>
+				<p class="post-meta">
+					<span class="post-author"><i class="fa fa-pencil-square fa-lg"></i> {% if page.author %}
+						{{ page.author }}
+					{% endif %}
+					</span>
+					<span class="post-time"><i class="fa fa-clock-o fa-lg"></i> {{ page.date | date: "%Y-%m-%d" }}</span>
+					<!--{% if page.meta %}
+						{{ page.meta }}
+					{% endif %}-->
+				</p>
+			</header>
+			<article class="post-content">
+				{{ content }}
+			</article>
+			<div class="post-tags-container">
+				<span class="tag-label">تگ ها : </span>
+				{% assign sorted_tags = page.tags | sort %}
+				{% for tag in sorted_tags %}
+					<span class="tag"><a class="btn btn-info btn-xs" href="/blog/#{{ tag }}">{{ tag }}</a></span>
+				{% endfor %}
+			</div>
+		</div>
+	</article>
+</section>
