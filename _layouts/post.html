@@ -24,7 +24,7 @@ layout: default
 				<span class="tag-label">تگ ها : </span>
 				{% assign sorted_tags = page.tags | sort %}
 				{% for tag in sorted_tags %}
-					<span class="tag"><a class="btn btn-info btn-xs" href="/blog/#{{ tag }}">{{ tag }}</a></span>
+					<span class="tag"><a class="btn btn-info btn-xs" href="{{site.baseurl}}/designtips/blog/#{{ tag }}">{{ tag }}</a></span>
 				{% endfor %}
 			</div>
 		</div>
