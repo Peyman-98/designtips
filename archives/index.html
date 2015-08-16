@@ -18,7 +18,9 @@ changefreq: daily
 						<a href="{{ post.url }}" class="title">{{ post.title }}</a><br>
 						<span class="date"><i class="fa fa-clock-o fa-lg"></i>{{ post.date | date: "%Y-%m-%d" }}</span>
 						{{ post.excerpt }}
-						<a href="{{ post.url }}" class="btn btn-primary read-more">ادامه مطلب</a>
+						<div class="read-more">
+							<a href="{{ post.url }}" class="btn btn-primary">ادامه مطلب</a>
+						</div>
 					</div>
 				</li>
 			{% endfor %}
