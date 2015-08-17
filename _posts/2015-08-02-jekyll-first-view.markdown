@@ -3,7 +3,13 @@ layout: post
 title:  "مقدمه ای بر jekyll"
 meta: مقدمه ای بر jekyll
 date:   2015-08-15 08:20:43
-tags: jekyll liquid github markdown
+tags:
+- jekyll چیست
+- زبان liquid
+- فایل های markdown
+- هاست مجانی github
+- اشنایی با jekyll
+- سایت jekyll
 excerpt: Jekyll یک پلتفرم برای ایجاد صفحات وب هست که قابلیت های زیادی...
 author: پیمان
 img: /img/post/jkl.jpg
