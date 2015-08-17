@@ -10,12 +10,12 @@ changefreq: daily
 			{% for post in paginator.posts %}	
 				<li class="media">
 					<div class="media-right" style="padding-left:20px;">
-						<a href="{{ post.url }}">
+						<a href="{{site.baseurl}}/designtips{{ post.url }}">
 							<img class="media-object" src="{{site.baseurl}}/designtips/{{post.img}}" alt="js">
 						</a>
 					</div>
 					<div class="media-body">
-						<a href="{{ post.url }}" class="title">{{ post.title }}</a><br>
+						<a href="{{site.baseurl}}/designtips{{ post.url }}" class="title">{{ post.title }}</a><br>
 						<span class="date"><i class="fa fa-clock-o fa-lg"></i>{{ post.date | date: "%Y-%m-%d" }}</span><br>
 						{{ post.excerpt }}
 						<div class="read-more">
