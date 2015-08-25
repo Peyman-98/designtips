@@ -944,12 +944,18 @@ body {
 	@media (max-width: 460px){
 		.g{
 			display: block;
+			float: none;
+			width: 100%;
 		}
 		.copy{
 			display: block;
+			float: none;
+			width: 100%;
 		}
 		.j{
 			display: block;
+			float: none;
+			width: 100%;
 		}
 	}
 }
