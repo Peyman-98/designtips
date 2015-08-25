@@ -936,7 +936,13 @@ body {
 		float: right;
 	}
 	@media (max-width: 460px){
-		.g,.copy,.j{
+		.g{
+			display: block;
+		}
+		.copy{
+			display: block;
+		}
+		.j{
 			display: block;
 		}
 	}
