@@ -873,31 +873,7 @@ body {
 	background-color: #F0DB4F;
 	margin: 0 30px 0 30px;
 	width: auto;
-	min-height: 260px;
-	.img-wrap{
-		display: block;
-		overflow: hidden;
-		text-align: center;
-		.img-jekyll{
-			overflow: hidden;
-			display: inline-block;
-		}
-		.img-info{
-			overflow: hidden;
-			display: inline-block;
-			width: 300px;
-			height: 200px;
-			.site-info{
-				position: relative;
-				top: 50%;
-				transform: translate(0,-50%);
-			}
-		}
-		.img-github{
-			overflow: hidden;
-			display: inline-block;
-		}
-	}
+	min-height: 150px;
 	.footer-link{
 		overflow: hidden;
 		display: block;
