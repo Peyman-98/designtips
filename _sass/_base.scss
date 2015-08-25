@@ -987,10 +987,20 @@ body {
 }
 .copy-right{
 	display: block;
+	direction: rtl;
+	font-family: "yekan","arial", sans-serif;
 	padding: 5px 0;
 	text-align: center;
 	margin: 0 30px 0 30px;
 	width: auto;
+	.g{
+		display: inline-block;
+		float: left;
+	}
+	.j{
+		display: inline-block;
+		float: right;
+	}
 }
 .hidden {
   display: none!important;
