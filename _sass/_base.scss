@@ -910,67 +910,17 @@ body {
 			}
 		}
 	}
-	@media (max-width: 930px){
-		.img-wrap{
-			.img-jekyll{
-				margin: 0 auto;
-				display: block;
-			}
-			.img-info{
-				margin: 0 auto;
-				display: block;
-			}
-			.img-github{
-				margin: 0 auto;
-				display: block;
-			}
-		}
-	}
-	@media (max-width: 520px){
-		.img-wrap{
-			.img-info{
-				margin: 0 auto;
-				display: block;
-				width: 200px;
-			}
-		}
-	}
-	@media (max-width: 420px){
-		.img-wrap{
-			.img-jekyll{
-				margin: 0 auto;
-				display: block;
-				img{
-					width: 100px;
-					height: auto;
-				}
-			}
-			.img-info{
-				margin: 0 auto;
-				display: block;
-				width: 100px;
-			}
-			.img-github{
-				margin: 0 auto;
-				display: block;
-				img{
-					width: 100px;
-					height: auto;
-				}
-			}
-		}
-	}
 }
 .copy-right{
 	display: block;
 	direction: rtl;
-	font-family: "yekan","arial", sans-serif;
 	padding: 5px 0;
 	text-align: center;
 	margin: 0 30px 0 30px;
 	width: auto;
 	position: relative;
 	.g{
+		font-family: "yekan","arial", sans-serif;
 		display: inline-block;
 		float: left;
 	}
@@ -981,6 +931,7 @@ body {
 		transform: translate(-50%,0);
 	}
 	.j{
+		font-family: "yekan","arial", sans-serif;
 		display: inline-block;
 		float: right;
 	}
