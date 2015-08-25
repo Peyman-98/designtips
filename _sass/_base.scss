@@ -801,9 +801,6 @@ body {
 			}
 		}
 	}
-	@media (max-width: 460px){
-		padding: 40px 25px;
-	}
 }
 .post{
 	overflow: hidden;
@@ -952,8 +949,9 @@ body {
   display: none!important;
   visibility: hidden!important;
 }
-
-
+@media (max-width: 460px){
+	padding: 40px 25px;
+}
 
 
 
