@@ -935,6 +935,11 @@ body {
 		display: inline-block;
 		float: right;
 	}
+	@media (max-width: 460px){
+		.g , .copy , .j{
+			display: block;
+		}
+	}
 }
 .hidden {
   display: none!important;
