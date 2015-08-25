@@ -950,7 +950,9 @@ body {
   visibility: hidden!important;
 }
 @media (max-width: 460px){
-	padding: 40px 25px;
+	#section-wrapper{
+		padding: 40px 25px;
+	}
 }
 
 
