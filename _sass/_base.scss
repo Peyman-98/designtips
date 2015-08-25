@@ -950,8 +950,21 @@ body {
   visibility: hidden!important;
 }
 @media (max-width: 460px){
-	#section-wrapper{
-		padding: 40px 25px;
+	.slide-show{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.n0{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	n1{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.mail-map{
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 }
 
