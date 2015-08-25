@@ -863,6 +863,9 @@ body {
 		p{
 		}
 	}
+	@media (max-width: 460px){
+		padding: 40px 25px;
+	}
 }
 .footer {
 	direction: rtl;
