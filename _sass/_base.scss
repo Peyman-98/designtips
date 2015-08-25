@@ -951,6 +951,9 @@ body {
 			display: block;
 			float: none;
 			width: 100%;
+			position: relative;
+			left: auto;
+			transform: translate(0,0);
 		}
 		.j{
 			display: block;
