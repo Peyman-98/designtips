@@ -993,9 +993,15 @@ body {
 	text-align: center;
 	margin: 0 30px 0 30px;
 	width: auto;
+	position: relative;
 	.g{
 		display: inline-block;
 		float: left;
+	}
+	.copy{
+		display: inline-block;
+		position: absolute;
+		left: 50%;
 	}
 	.j{
 		display: inline-block;
