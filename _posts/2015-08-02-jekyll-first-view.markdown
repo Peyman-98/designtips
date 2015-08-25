@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "مقدمه ای بر jekyll"
-meta: مقدمه ای بر jekyll
+meta: نگاهی کاربردی به jekyll وخصوصیات ان برای ساخت صفحات static قدرتمند وسریع به صورت ساده
 date:   2015-08-15 08:20:43
 tags:
 - jekyll چیست
