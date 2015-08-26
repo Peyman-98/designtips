@@ -28,8 +28,8 @@ body {
 		z-index: 5;
 		.fa-search{
 			position: fixed;
-			left: 0;
 			top: 11px;
+			left: 11px;
 			color: #2C3E50;
 			@include transition(color, 0.4s, linear);
 			opacity: 0;
