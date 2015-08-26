@@ -446,19 +446,26 @@ body {
 				}
 			}
 		}
-		.img-wrap{
-			display: block;
-			overflow: hidden;
-			margin: 0 auto;
-			padding-top: 15px;
+		.help-box{
+			display: inline-block;
+			background-color: #ffffff;
 			width: auto;
+			height: auto;
+			min-height: 400px;
+			box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+		}
+		.img-wrap{
+			display: inline-block;
+			overflow: hidden;
+			padding-top: 15px;
+			width: 260px;
 			height: auto;
 			min-height: 450px;
 			text-align: center;
 			.meanstack-block,.angularjs-block,.nodejs-block,.sassless-block{
-				margin: 15px;
+				margin:10px 0;
 				padding: 5px;
-				display: inline-block;
+				display: block;
 				overflow: hidden;
 				width: 260px;
 				height: 260px;
@@ -476,7 +483,7 @@ body {
 			.meanstack-block:hover{
 				height: 400px;
 			}
-			/*.angularjs-block:hover{
+			.angularjs-block:hover{
 				height: 400px;
 			}
 			.nodejs-block:hover{
@@ -484,7 +491,7 @@ body {
 			}
 			.sassless-block:hover{
 				height: 400px;
-			}*/
+			}
 		}
 		@media (max-width: 768px){
 			.wrap{
