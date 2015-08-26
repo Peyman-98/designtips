@@ -26,6 +26,17 @@ body {
 		background: #222222;
 		top: 0 !important;
 		z-index: 5;
+		.fa-search{
+			position: fixed;
+			left: 0;
+			top: 11px;
+			color: #2C3E50;
+			@include transition(color, 0.4s, linear);
+			opacity: 0;
+			&:hover{
+				color: #ffffff;
+			}
+		}
 		.wrapper {
 			margin-top: 5px;
 			width: 20px;
@@ -994,6 +1005,16 @@ body {
   visibility: hidden!important;
 }
 @media (max-width: 460px){
+	.left-nav{
+		.fa-search{
+			opacity: 0 !important;
+		}
+	}
+	.top-nav{
+		.fa-search{
+			opacity: 1 !important;
+		}
+	}
 	.left-nav {
 		.fa-github-square{
 			opacity: 0 !important;
