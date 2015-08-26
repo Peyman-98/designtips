@@ -204,6 +204,45 @@ body {
 			color: #ffffff;
 			@include transition(bottom, 0.3s, linear);
 		}
+		.fa-github-square{
+			position: fixed;
+			left: 41px;
+			bottom: 11px;
+			color: #2C3E50;
+			@include transition(color, 0.4s, linear);
+			&:hover{
+				color: #ffffff;
+			}
+		}
+		.fa-facebook-square{
+			position: fixed;
+			left: 67px;
+			bottom: 11px;
+			color: #2C3E50;
+			@include transition(color, 0.4s, linear);
+			&:hover{
+				color: #ffffff;
+			}
+		}
+		.fa-twitter-square{
+			position: fixed;
+			right: 41px;
+			bottom: 11px;
+			color: #2C3E50;
+			@include transition(color, 0.4s, linear);
+			&:hover{
+				color: #ffffff;
+			}
+		}
+		.fa-linkedin-square{
+			position: fixed;
+			right: 67px;
+			bottom: 11px;
+			color: #2C3E50;
+			@include transition(color, 0.4s, linear);
+			&:hover{
+				color: #ffffff;
+			}
 	}
 	.left-nav {
 		position: fixed;
