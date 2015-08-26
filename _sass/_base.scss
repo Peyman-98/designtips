@@ -994,6 +994,20 @@ body {
   visibility: hidden!important;
 }
 @media (max-width: 460px){
+	.left-nav {
+		.fa-github-square{
+			opacity: 0 !important;
+		}
+		.fa-facebook-square{
+			opacity: 0 !important;
+		}
+		.fa-twitter-square{
+			opacity: 0 !important;
+		}
+		.fa-linkedin-square{
+			opacity: 0 !important;
+		}
+	}
 	.bottom-nav {
 		.fa-github-square{
 			opacity: 1 !important;
