@@ -393,15 +393,6 @@ body {
 		width: 100%;
 		box-sizing: border-box;
 	}
-	.slide-show{
-		font-family: "yekan","arial",sans-serif;
-		@extend .structure;
-		max-height: 360px;
-		padding-bottom: 0 !important;
-		.carousel-inner{
-			max-height: 300px !important;
-		}
-	}
 	.n0{
 		font-family: "yekan","arial",sans-serif;
 		@extend .structure;
@@ -452,6 +443,26 @@ body {
 					}
 					img:hover{
 					}
+				}
+			}
+		}
+		.img-wrap{
+			display: block;
+			overflow: hidden;
+			margin: 0 auto;
+			width: auto;
+			height: auto;
+			min-height: 450px;
+			.img-block{
+				display: inline-block;
+				overflow: hidden;
+				height: auto;
+				min-height: 450px;
+				img{
+					display: block;
+				}
+				p{
+					display: block;
 				}
 			}
 		}
