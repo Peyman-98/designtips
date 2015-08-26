@@ -461,8 +461,10 @@ body {
 				display: inline-block;
 				overflow: hidden;
 				width: 260px;
+				height: 260px;
 				background-color: #ffffff;
 				box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+				@include transition(all, 0.3s, linear);
 				img{
 					display: block;
 				}
@@ -470,13 +472,6 @@ body {
 					display: block;
 					margin: 10px 0 5px 0;
 				}
-			}
-			.b1,.b2,.b3,.b4{
-				height: 260px;
-				@include transition(all, 0.3s, linear);
-			}
-			.b1:hover,.b2:hover,.b3:hover,.b4:hover{
-				height: auto;
 			}
 		}
 		@media (max-width: 768px){
