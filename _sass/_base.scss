@@ -455,7 +455,7 @@ body {
 			height: auto;
 			min-height: 450px;
 			text-align: center;
-			.img-block{
+			.meanstack-block,.angularjs-block,.nodejs-block,.sassless-block{
 				margin: 15px;
 				padding: 5px;
 				display: inline-block;
@@ -473,7 +473,16 @@ body {
 					margin: 10px 0 5px 0;
 				}
 			}
-			.img-block:hover{
+			.meanstack-block:hover{
+				height: 400px;
+			}
+			.angularjs-block:hover{
+				height: 400px;
+			}
+			.nodejs-block:hover{
+				height: 400px;
+			}
+			.sassless-block:hover{
 				height: 400px;
 			}
 		}
