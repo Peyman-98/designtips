@@ -449,9 +449,10 @@ body {
 		.help-box{
 			float: left;
 			margin-top: 15px;
+			padding: 30px;
 			display: inline-block;
 			background-color: #ffffff;
-			width: calc(100% - 290px);
+			width: calc(100% - 280px);
 			height: auto;
 			min-height: 400px;
 			box-shadow: 0 1px 1px rgba(0,0,0,0.2);
@@ -460,13 +461,12 @@ body {
 			float: right;
 			display: inline-block;
 			overflow: hidden;
-			padding-top: 15px;
 			width: 260px;
 			height: auto;
 			min-height: 450px;
 			text-align: center;
 			.meanstack-block,.angularjs-block,.nodejs-block,.sassless-block{
-				margin:10px 0;
+				margin:15px 0;
 				padding: 5px;
 				display: block;
 				overflow: hidden;
@@ -474,7 +474,7 @@ body {
 				height: 260px;
 				background-color: #ffffff;
 				box-shadow: 0 1px 1px rgba(0,0,0,0.2);
-				transition: all 0.4s linear;
+				transition: all 0.5s linear;
 				img{
 					display: block;
 				}
