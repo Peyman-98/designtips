@@ -402,7 +402,7 @@ body {
 			display: block;
 			overflow: hidden;
 			padding: 30px;
-			background-color: #3498DB;
+			background-color: #34495E;
 			min-height: 360px;
 			line-height: 180%;
 			.info{
@@ -447,6 +447,7 @@ body {
 			}
 		}
 		.help-box{
+			overflow: hidden;
 			float: left;
 			margin-top: 15px;
 			padding: 30px;
@@ -455,6 +456,18 @@ body {
 			width: calc(100% - 280px);
 			height: auto;
 			min-height: 400px;
+			box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+		}
+		.help-box2{
+			overflow: hidden;
+			float: left;
+			margin-top: 15px;
+			padding: 30px;
+			display: inline-block;
+			background-color: #ffffff;
+			width: calc(100% - 280px);
+			height: auto;
+			min-height: 600px;
 			box-shadow: 0 1px 1px rgba(0,0,0,0.2);
 		}
 		.img-wrap{
