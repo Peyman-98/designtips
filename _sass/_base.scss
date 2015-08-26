@@ -450,10 +450,13 @@ body {
 			display: block;
 			overflow: hidden;
 			margin: 0 auto;
+			padding-top: 30px;
 			width: auto;
 			height: auto;
 			min-height: 450px;
+			text-align: center;
 			.img-block{
+				margin: 0 10px;
 				display: inline-block;
 				overflow: hidden;
 				width: 250px;
