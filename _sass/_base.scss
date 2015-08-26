@@ -451,7 +451,7 @@ body {
 			margin-top: 15px;
 			display: inline-block;
 			background-color: #ffffff;
-			width: 100% - 300px;
+			width: calc(100% - 290px);
 			height: auto;
 			min-height: 400px;
 			box-shadow: 0 1px 1px rgba(0,0,0,0.2);
@@ -474,7 +474,7 @@ body {
 				height: 260px;
 				background-color: #ffffff;
 				box-shadow: 0 1px 1px rgba(0,0,0,0.2);
-				transition: all 0.3s linear;
+				transition: all 0.4s linear;
 				img{
 					display: block;
 				}
