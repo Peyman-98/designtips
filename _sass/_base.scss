@@ -28,7 +28,7 @@ body {
 		z-index: 5;
 		.fa-search{
 			position: fixed;
-			top: 11px;
+			top: 12px;
 			left: 11px;
 			color: #2C3E50;
 			@include transition(color, 0.4s, linear);
@@ -1005,7 +1005,11 @@ body {
   visibility: hidden!important;
 }
 @media (max-width: 460px){
+	.right-nav{
+		opacity: 0 !important;
+	}
 	.left-nav{
+		opacity: 0 !important;
 		.fa-search{
 			opacity: 0 !important;
 		}
