@@ -451,7 +451,6 @@ body {
 			float: left;
 			margin-top: 15px;
 			display: inline-block;
-			background-color: #ffffff;
 			width: calc(100% - 280px);
 			height: auto;
 			min-height: 1250px;
@@ -463,6 +462,7 @@ body {
 				width: 100%;
 				height: auto;
 				min-height: 625px;
+				background-color: #ffffff;
 				box-shadow: 0 1px 1px rgba(0,0,0,0.2);
 			}
 		}
