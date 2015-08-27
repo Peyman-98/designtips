@@ -23,7 +23,7 @@ title: Blog
 					{% if post.tags contains t %}
 						<li>
 							<span class="blog-item-date"><i class="fa fa-clock-o fa-lg"></i>{{ post.date | date: "%Y-%m-%d" }}</span>
-							<a href="{{ post.url }}">{{ post.title }}</a>
+							<a href="{{site.baseurl}}/designtips{{ post.url }}">{{ post.title }}</a>
 						</li>
 					{% endif %}
 				{% endfor %}
