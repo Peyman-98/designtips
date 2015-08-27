@@ -450,25 +450,20 @@ body {
 			overflow: hidden;
 			float: left;
 			margin-top: 15px;
-			padding: 30px;
 			display: inline-block;
 			background-color: #ffffff;
 			width: calc(100% - 280px);
 			height: auto;
-			min-height: 550px;
-			box-shadow: 0 1px 1px rgba(0,0,0,0.2);
-		}
-		.help-box2{
-			overflow: hidden;
-			float: left;
-			margin-top: 15px;
-			padding: 30px;
-			display: inline-block;
-			background-color: #ffffff;
-			width: calc(100% - 280px);
-			height: auto;
-			min-height: 700px;
-			box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+			min-height: 1250px;
+			.content-box{
+				display: block;
+				overflow: hidden;
+				padding: 30px;
+				width: 100%;
+				height: auto;
+				min-height: 625px;
+				box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+			}
 		}
 		.img-wrap{
 			display: inline-block;
