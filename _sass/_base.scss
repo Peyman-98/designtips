@@ -984,7 +984,7 @@ body {
 					display: block;
 					margin: 0;
 					padding: 5px;
-					width: 70px;
+					width: 75px;
 					height: 35px;
 					line-height: 25px;
 					color: #00B0FF;
@@ -1175,6 +1175,12 @@ body {
 }
 .blog-icon:before{
 	content: "\f14b" !important;
+}
+.tag-icon:before{
+	content: "\f02c" !important;
+}
+.about-icon:before{
+	content: "\f004" !important;
 }
 .hvr-icon-pulse-grow:hover:before, .hvr-icon-pulse-grow:focus:before, .hvr-icon-pulse-grow:active:before {
   -webkit-animation-name: hvr-icon-pulse-grow;
