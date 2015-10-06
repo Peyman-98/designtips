@@ -7,8 +7,12 @@
 	src: url(../fonts/Yekan.eot);
 	src: url(../fonts/Yekan.eot?#iefix) format("embedded-opentype"), url(../fonts/Yekan.woff) format("woff"), 				url(../fonts/Yekan.ttf) format("truetype"), url(../fonts/Yekan.svg#BYekan) format("svg");
 }
+html{
+	height: 100%;
+}
 body {
 	background: #f0f0f0;
+	height: 100%;
 }
 
 #section-wrapper {
@@ -17,6 +21,7 @@ body {
 	margin: 0 auto;
 	padding: 40px;
 	background: #e5e5e5;
+	height: 100%;
 	.top-nav {
 		overflow: hidden;
 		position: fixed;
