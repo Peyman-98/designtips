@@ -21,7 +21,6 @@ body {
 	margin: 0 auto;
 	padding: 40px;
 	background: #e5e5e5;
-	height: 100%;
 	.top-nav {
 		overflow: hidden;
 		position: fixed;
@@ -402,54 +401,6 @@ body {
 		font-family: "yekan","arial",sans-serif;
 		@extend .structure;
 		background-color: #e5e5e5;
-		.wrap{
-			display: block;
-			overflow: hidden;
-			padding: 30px;
-			background-color: #34495E;
-			min-height: 360px;
-			line-height: 180%;
-			.info{
-				overflow: hidden;
-				display: inline-block;
-				width: 45%;
-				float: left;
-				text-align: center;
-				color: #fff;
-				h1{
-					height: 100px;
-					line-height: 100px;
-					font-size: 20px;
-					margin-top: 0;
-					margin-bottom: 20px;
-				}
-			}
-			.line{
-				display: inline-block;
-				min-height: 360px;
-				height: auto;
-				width: 1px;
-				background-color: rgba(255,255,255,0.7);
-				float: left;
-				margin-left: 5%;
-			}
-			.wcl{
-				overflow: hidden;
-				display: inline-block;
-				width:45%;
-				text-align: center;
-				color: #fff;
-				.into-blog{
-					display: block;
-					text-align: center;
-					margin-top: 75px;
-					img{
-					}
-					img:hover{
-					}
-				}
-			}
-		}
 		.help-box{
 			overflow: hidden;
 			float: left;
