@@ -489,17 +489,11 @@ body {
 		min-height: 500px;
 		height: auto;
 		background-color: #e5e5e5;
-		#map {
-			float: left;
-			width: 50%;
-			height: 500px;
-		}
 		.contact-form{
-			float: right;
 			padding: 30px;
 			background-color: #ffffff;
 			height: 500px;
-			width: 50%;
+			width: 100%;
 			box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 			.message{
 				text-align: right;
@@ -508,11 +502,6 @@ body {
 			}
 		}
 		@media (max-width: 768px){
-			#map{
-				float: none;
-				display: block;
-				width: 100%;
-			}
 			.contact-form{
 				flex: none;
 				display: block;
