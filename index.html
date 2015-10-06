@@ -16,21 +16,12 @@ priority: 1.0
   <div class="carousel-inner" role="listbox">
     <div class="item active">
       <img src="{{site.baseurl}}/designtips/img/nodejs.jpg" alt="NodeJS">
-      <div class="carousel-caption">
-      	NodeJs
-      </div>
     </div>
     <div class="item">
       <img src="{{site.baseurl}}/designtips/img/angularjs.jpg" alt="AngularJs">
-      <div class="carousel-caption">
-        AngularJs
-      </div>
     </div>
     <div class="item">
       <img src="{{site.baseurl}}/designtips/img/gulp.jpg" alt="Gulp">
-      <div class="carousel-caption">
-        GulpJs
-      </div>
     </div>
   </div>
 
@@ -55,7 +46,7 @@ function init() {
 var mapOptions = {
 		// How zoomed in you want the map to start at (always required)
 		zoom: 8,
-
+		draggable: false,
 		// The latitude and longitude to center the map (always required)
 		center: new google.maps.LatLng(37.190251,50.157941), // New York
 
