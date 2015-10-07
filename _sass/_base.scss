@@ -344,7 +344,13 @@ body {
 		z-index: 99999;
 		color: #ffffff;
 		text-align: center;
+		-webkit-transform:rotateX(90deg);
+		-moz-transform:rotateX(90deg);
+		-ms-transform:rotateX(90deg);
 		transform:rotateX(90deg);
+		-webkit-transform-origin: left bottom;
+		-moz-transform-origin: left bottom;
+		-ms-transform-origin: left bottom;
 		transform-origin: left bottom;
 		@include transition(transform, 0.4s, linear);
 		ul {
@@ -356,6 +362,9 @@ body {
 			position: fixed;
 			top: 50%;
 			left: 50%;
+			-webkit-transform: translate(-50%, -50%);
+			-moz-transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
 			transform: translate(-50%, -50%);
 			li {
 				display: inline-block;
@@ -378,6 +387,9 @@ body {
 		}
 	}
 	.light-box-appear {
+		-webkit-transform:rotateX(0);
+		-moz-transform:rotateX(0);
+		-ms-transform:rotateX(0);
 		transform:rotateX(0);
 	}
 	.structure{
